@@ -1,0 +1,82 @@
+:root{
+   --secondary-color: rgba(0, 0, 0, 0.7);
+}
+
+.Card{
+   width: 327px;
+   height: 544px;
+   background-image: url("../../assets/ticket-shape.png");
+   padding: 24px 32px;
+}
+
+div .above{
+   font-size: 14px;
+   color: var(--secondary-color)
+}
+
+div .under{
+   font-weight: 500;
+   font-size: 17px;
+}
+
+div .middle{
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.container{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 24px;
+}
+
+.flight-info .container.one:last-child, .flight-info .container.two .arrival, .seat{
+   text-align: right;
+}
+
+.flight-info .container.two{
+   margin-bottom: 48px;
+}
+
+.flight-info .container.two img{
+   position: relative;
+   left: 8px;
+}
+
+.passenger-info{
+   display: flex;
+}
+
+.boarding-data{
+   margin-top: 60px;
+
+}
+
+.boarding-time .time{
+   background-color: #633BBC;
+   color: #fff;
+   padding: 4px 8px;
+   border-radius: 8px;
+   text-align: center;
+}
+
+.boarding-data .boarding-info{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.boarding-data .qr-code{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 14px;
+   color: var(--secondary-color);
+   gap: 8px;
+}
+
+.attention{
+   text-align: center;
+   color: rgb(0, 0, 0, 0.8)
+}
