@@ -25,20 +25,25 @@ Desafio proposto pelo projeto <a href="https://boracodar.dev/">#boraCodar</a> da
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- ReactJs
+- React
+- Typescript
 - Vite
+- QRCode.react
 - Css
 - Git e Github
-- Figma
-
-Tecnologias que pretendo adicionar ao projeto: 
-
-- Typescript
+- Figma 
 
 ## 💻 Projeto
 
-O Boarding Pass é um componente de cartão de embarque. <br>
-O propósito desse projeto foi a aplicação prática de conceitos básicos da biblioteca Javascript ReactJs e posteriormente de Typescript
+### O Boarding Pass é um componente de cartão de embarque.
+### O cartão pode ser gerado através de um formulário para preencher as informações do passe de embarque.
+O propósito desse projeto foi a aplicação prática de conceitos básicos da biblioteca ReactJs e de Typescript
+
+<p align="center">
+  <img alt="Demonstração do app" src=".github/demonstracao-1.gif" width="49%">
+  <img alt="Demonstração do app" src=".github/demonstracao-2.gif" width="49%">
+</p>
+
 
 ## 💾 Instalação
 

@@ -1,18 +1,26 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-   min-height: 100vh;
-   display: flex;
-   justify-content: center;
-   background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
-   background-size: cover; 
+#root {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
 }
 
-body, .card *{
-   font-size: 16px;
-   font-family: 'Rubik', sans-serif;
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%) no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+body,
+.card * {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
 }
